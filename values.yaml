@@ -10,17 +10,14 @@ external-dns:
   aws:
     region: "us-east-1"
     credentials:
-      accessKey: "AKIA6BIPVMUDTZMUSPLN"
-      secretKey: "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"
+      accessKey: "AKIAXHICZURJEYY2CQIT"
+      secretKey: "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"
     roleArn: "arn:aws:iam::964789888263:role/externaldns"
 
   domainFilters:
-    - knaws.com
-    - service.knaws.com
-    - service.coco.com
-    - test
+    - kafka.dns-cloud.net
 
-  txtOwnerId: my-unique-txt-owner-id
+  txtOwnerId: external-dns
 
   interval: 1m
   ttl: 300
