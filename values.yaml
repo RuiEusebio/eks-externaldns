@@ -15,7 +15,7 @@ external-dns:
     roleArn: "arn:aws:iam::975980002439:role/eks-master-role"
 
   domainFilters:
-    - kafka.dns-cloud.net
+    - r-eusebio.online
 
   txtOwnerId: external-dns
 
