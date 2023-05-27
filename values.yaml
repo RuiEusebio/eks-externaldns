@@ -10,9 +10,9 @@ external-dns:
   aws:
     region: "us-east-1"
     credentials:
-      accessKey: "AKIAXHICZURJEYY2CQIT"
-      secretKey: "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"
-    roleArn: "arn:aws:iam::964789888263:role/externaldns"
+      accessKey: "AKIA6GPHQ7SD5HRQEOOU"
+      secretKey: "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"
+    roleArn: "arn:aws:iam::975980002439:role/eks-master-role"
 
   domainFilters:
     - kafka.dns-cloud.net
