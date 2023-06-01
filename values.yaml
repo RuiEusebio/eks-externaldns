@@ -18,7 +18,7 @@ external-dns:
   ovh:
     ## @param ovh.consumerKey When using the OVH provider, specify the existing consumer key. (required when provider=ovh and `ovh.secretName` is not provided.)
     ##
-    consumerKey: "290562a432139a9e7a16ea1141a56dd8"
+    consumerKey: "8bd9011ee1a7a5a128db648dbc8df66c"
     ## @param ovh.applicationKey When using the OVH provider with an existing application, specify the application key. (required when provider=ovh and `ovh.secretName` is not provided.)
     ##
     applicationKey: "1471699314cca931"
