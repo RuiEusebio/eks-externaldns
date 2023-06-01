@@ -18,13 +18,13 @@ external-dns:
   ovh:
     ## @param ovh.consumerKey When using the OVH provider, specify the existing consumer key. (required when provider=ovh and `ovh.secretName` is not provided.)
     ##
-    consumerKey: "8bd9011ee1a7a5a128db648dbc8df66c"
+    consumerKey: ""
     ## @param ovh.applicationKey When using the OVH provider with an existing application, specify the application key. (required when provider=ovh and `ovh.secretName` is not provided.)
     ##
-    applicationKey: "1471699314cca931"
+    applicationKey: ""
     ## @param ovh.applicationSecret When using the OVH provider with an existing application, specify the application secret. (required when provider=ovh and `ovh.secretName` is not provided.)
     ##
-    applicationSecret: "d279cef30ab56cd2bbf272b7dd0583f1"
+    applicationSecret: ""
     ## @param ovh.secretName When using the OVH provider, it's the name of the secret containing `ovh_consumer_key`, `ovh_application_key` and `ovh_application_secret`. Disables usage of other `ovh`.
     ## with following keys:
     ##  - ovh_consumer_key
@@ -32,7 +32,7 @@ external-dns:
     ##  - ovh_application_secret
     ## This ignores consumerKey, applicationKey & applicationSecret
     ##
-    # secretName: "ovh-secret"
+    secretName: "ovh-secret"
 
   domainFilters:
     - r-eusebio.online
